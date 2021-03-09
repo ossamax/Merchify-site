@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="friendly_support" data-name="friendly support" transform="translate(0 0.231)">
+    <g id="Group_499" data-name="Group 499" transform="translate(8.841 13.129)">
+      <g id="Group_497" data-name="Group 497" transform="translate(26.49 13.627)">
+        <ellipse id="Ellipse_83" data-name="Ellipse 83" cx="19.809" cy="19.942" rx="19.809" ry="19.942" transform="translate(-2 -2)" fill="#9795a6"/>
+      </g>
+      <path id="Path_209" data-name="Path 209" d="M116.435,79A22.469,22.469,0,0,0,94,101.435V116.94a6.919,6.919,0,0,0,6.913,6.913h2.227a6.929,6.929,0,0,0,6.913-6.913v-6.647a6.919,6.919,0,0,0-6.913-6.913H98.969v-1.944a17.466,17.466,0,1,1,34.932,0v11.816a1.947,1.947,0,0,1-1.944,1.944h-3.822a3.728,3.728,0,0,0-2.725-1.213H121.72a3.689,3.689,0,0,0,0,7.379h3.689a3.667,3.667,0,0,0,2.725-1.213h3.822a6.929,6.929,0,0,0,6.913-6.913v-11.8A22.469,22.469,0,0,0,116.435,79ZM103.14,108.348a1.947,1.947,0,0,1,1.944,1.944v6.647a1.947,1.947,0,0,1-1.944,1.944h-2.21a1.947,1.947,0,0,1-1.944-1.944v-8.592Z" transform="translate(-87.22 -79)" fill="#5e5167"/>
+      <g id="Group_498" data-name="Group 498" transform="translate(-12 24.962)">
+        <circle id="Ellipse_84" data-name="Ellipse 84" cx="8.924" cy="8.924" r="8.924" transform="translate(16 -22)" fill="#ff053b"/>
+      </g>
+    </g>
+    <rect id="Rectangle_349" data-name="Rectangle 349" width="80" height="80" transform="translate(0 -0.231)" fill="none"/>
+  </g>
+</svg>

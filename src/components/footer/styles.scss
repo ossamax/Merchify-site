@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap");
+.footer {
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+  padding: 3rem 0;
+  .container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #44374d;
+    font-family: "Dosis", sans-serif;
+    @media screen and (min-width: 479px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (min-width: 800px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .logo_social_media_links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 200px;
+      }
+      p {
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin: 1rem 0;
+      }
+      .social_media_icons {
+        svg {
+          margin: 0.5rem;
+          border: 2px solid rgb(219, 218, 218);
+          width: 2.5rem;
+          height: 2.5rem;
+          padding: 0.5rem;
+          cursor: pointer;
+        }
+      }
+    }
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem 0;
+      @media screen and (min-width: 479px) {
+        margin: 0;
+      }
+      a {
+        margin: 0.5rem 0;
+        color: #44374d;
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+    }
+    .contact {
+      div {
+        font-size: 1.1rem;
+        margin: 1rem;
+        font-weight: 600;
+        svg {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}

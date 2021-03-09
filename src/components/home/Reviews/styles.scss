@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+.reviews {
+  .container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    @media screen and (min-width: 600px) {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 0;
+    }
+    .reviews_container {
+      @media screen and (min-width: 600px) {
+        width: 55%;
+      }
+      @media screen and (min-width: 990px) {
+        display: flex;
+        justify-content: space-between;
+      }
+      .review {
+        font-family: "IBM Plex Sans", sans-serif;
+        margin-bottom: 32px;
+        padding: 32px;
+        border: 2px solid #f2f5f5;
+        border-radius: 8px;
+        box-shadow: 0 10px 20px 0 rgb(216, 216, 216);
+        p {
+          color: #4b4b4b;
+          font-size: 16px;
+          line-height: 1.5;
+          font-weight: 600;
+          margin: 1rem 0rem 2rem;
+        }
+        .cust_name {
+          font-weight: bold;
+          color: #44374d;
+        }
+        .happy_cust {
+          color: #a19aa4;
+          font-weight: normal;
+        }
+      }
+      .right_reviews {
+        @media screen and (min-width: 990px) {
+          margin-top: 5rem;
+          margin-left: 2rem;
+        }
+      }
+      .diff_back {
+        background-color: #44374d;
+        position: relative;
+        p,
+        .cust_name {
+          color: white;
+        }
+        .happy_cust {
+          color: #a19aa4;
+        }
+        .backimg {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 50%;
+          opacity: 0.2;
+        }
+      }
+    }
+    .review_content {
+      font-family: "IBM Plex Sans", sans-serif;
+      margin: 3rem 0;
+      @media screen and (min-width: 600px) {
+        width: 40%;
+        position: sticky;
+        top: 10rem;
+        align-self: flex-start;
+        margin: 0;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 1;
+        color: #44374d;
+        padding-right: 1rem;
+      }
+      p {
+        margin: 1.5rem 0;
+        color: #44374d;
+        font-weight: 500;
+        line-height: 1.3;
+      }
+      button {
+        padding: 1.2rem 2rem;
+        background-color: #ff053b;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0px 5px 5px #ff053b67;
+        }
+      }
+    }
+  }
+}

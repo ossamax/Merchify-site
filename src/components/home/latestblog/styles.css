@@ -1,0 +1,167 @@
+.latestblog .container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.latestblog .container .header {
+  text-align: center;
+  color: #44374d;
+  margin: 3rem 0;
+}
+
+.latestblog .container .header h1 {
+  font-weight: 800;
+}
+
+@media screen and (min-width: 500px) {
+  .latestblog .container .header h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 766px) {
+  .latestblog .container .blogs_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.latestblog .container .blogs_container div {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 2px solid #f2f5f5;
+  color: #44374d;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  text-align: left;
+}
+
+.latestblog .container .blogs_container div:hover {
+  -webkit-box-shadow: 0px 0px 20px 0 #e4e4e4;
+          box-shadow: 0px 0px 20px 0 #e4e4e4;
+}
+
+@media screen and (min-width: 766px) {
+  .latestblog .container .blogs_container div {
+    margin: 1rem;
+    padding: 2rem 1.5rem;
+  }
+}
+
+.latestblog .container .blogs_container div .featured {
+  position: absolute;
+  width: auto;
+  top: 2rem;
+  right: 2rem;
+  padding: 0.3rem 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ff053b;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 766px) {
+  .latestblog .container .blogs_container div .featured {
+    top: 3rem;
+  }
+}
+
+.latestblog .container .blogs_container div .featured svg {
+  margin-right: 0.5rem;
+}
+
+.latestblog .container .blogs_container div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.latestblog .container .blogs_container div P {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.latestblog .container .blogs_container div P span {
+  color: #949494;
+}
+
+.latestblog .container .blogs_container div h3 {
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 766px) {
+  .latestblog .container .blogs_container div h3 {
+    font-size: 1.8rem;
+  }
+}
+
+.latestblog .container .blogs_container div button {
+  background: transparent;
+  margin-top: 1.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #44374d;
+  border-bottom: 2px solid #c3b9ca;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.latestblog .container .blogs_container div button::before {
+  content: " ";
+  position: absolute;
+  top: 1.6rem;
+  left: 0;
+  right: 15%;
+  width: 0px;
+  height: 2px;
+  background-color: red;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.latestblog .container .blogs_container div button:hover::before {
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.latestblog .container .viewall {
+  padding: 1.2rem 2rem;
+  margin-top: 3rem;
+  background-color: #ff053b;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.latestblog .container .viewall:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0px 5px 5px #ff053b67;
+          box-shadow: 0px 5px 5px #ff053b67;
+}
+/*# sourceMappingURL=styles.css.map */

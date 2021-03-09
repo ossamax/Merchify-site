@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap");
+.footer {
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+  padding: 3rem 0;
+}
+
+.footer .container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  color: #44374d;
+  font-family: "Dosis", sans-serif;
+}
+
+@media screen and (min-width: 479px) {
+  .footer .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .footer .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.footer .container .logo_social_media_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .logo_social_media_links img {
+  width: 200px;
+}
+
+.footer .container .logo_social_media_links p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.footer .container .logo_social_media_links .social_media_icons svg {
+  margin: 0.5rem;
+  border: 2px solid #dbdada;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.footer .container .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 479px) {
+  .footer .container .navigation {
+    margin: 0;
+  }
+}
+
+.footer .container .navigation a {
+  margin: 0.5rem 0;
+  color: #44374d;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.footer .container .contact div {
+  font-size: 1.1rem;
+  margin: 1rem;
+  font-weight: 600;
+}
+
+.footer .container .contact div svg {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */

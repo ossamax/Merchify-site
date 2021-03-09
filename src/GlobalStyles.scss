@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "M PLUS 1p", sans-serif;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button,
+input {
+  outline: none;
+}

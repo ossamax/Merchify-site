@@ -1,0 +1,61 @@
+.hero_blog {
+  text-align: center;
+  height: 500px;
+  margin-top: 8rem;
+  @media screen and (min-width: 980px) {
+    height: 300px;
+    margin-top: 10rem;
+  }
+  .container {
+    background-color: #f2f5f5;
+    width: 93%;
+    height: 100%;
+    margin: 2rem auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    &:hover {
+      &::before {
+        transform: scale(1.1);
+      }
+      &::after {
+        transform: scale(1.1);
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: -1rem;
+      right: -1rem;
+      width: 300px;
+      height: 200px;
+      background-image: url("../../images/brush-texture-dark.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 0.1;
+      transition: 1s ease-in-out;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -1rem;
+      left: -1rem;
+      width: 300px;
+      height: 200px;
+      background-image: url("../../images/brush-texture-dark.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 0.1;
+      transition: 1s ease-in-out;
+    }
+    h1 {
+      margin: 0;
+      font-size: 4rem;
+      color: #44374d;
+    }
+  }
+}

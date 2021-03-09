@@ -1,0 +1,108 @@
+.products .container {
+  width: 90%;
+  margin: auto;
+}
+
+.products .container .header {
+  text-align: center;
+  color: #44374d;
+  margin: 3rem 0;
+}
+
+.products .container .header h1 {
+  font-weight: 800;
+}
+
+@media screen and (min-width: 500px) {
+  .products .container .header h1 {
+    font-size: 3rem;
+  }
+}
+
+.products .container .products_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+  .products .container .products_container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .products .container .products_container {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .products .container .products_container {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.products .container .products_container .product {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #f2f5f5;
+  color: #44374d;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.products .container .products_container .product img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .products .container .products_container .product img {
+    height: auto;
+  }
+}
+
+.products .container .products_container .product h3 {
+  margin-top: 1rem;
+}
+
+.products .container .products_container .product button {
+  background: transparent;
+  margin-top: 1.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #44374d;
+  border-bottom: 2px solid #c3b9ca;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.products .container .products_container .product button::before {
+  content: " ";
+  position: absolute;
+  top: 1.6rem;
+  left: 0;
+  right: 15%;
+  width: 0px;
+  height: 2px;
+  background-color: red;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.products .container .products_container .product button:hover::before {
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+/*# sourceMappingURL=styles.css.map */

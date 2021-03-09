@@ -1,0 +1,315 @@
+.aboutus {
+  margin-top: 8rem;
+  display: inline-block;
+}
+
+@media screen and (min-width: 900px) {
+  .aboutus {
+    margin-top: 10rem;
+  }
+}
+
+.aboutus .container {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+}
+
+.aboutus .container .aboutus_hero {
+  width: 100%;
+  background-color: #f2f5f5;
+  height: 100%;
+  margin: 2rem auto;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.aboutus .container .aboutus_hero:hover::before {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.aboutus .container .aboutus_hero:hover::after {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.aboutus .container .aboutus_hero::before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 300px;
+  height: 200px;
+  background-image: url("../../images/brush-texture-dark.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.aboutus .container .aboutus_hero::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: -1rem;
+  width: 300px;
+  height: 200px;
+  background-image: url("../../images/brush-texture-dark.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.aboutus .container .aboutus_hero h1 {
+  margin: 0;
+  font-size: 4rem;
+  color: #44374d;
+}
+
+.aboutus .container .aboutus_content {
+  margin-top: 6rem;
+}
+
+@media screen and (min-width: 600px) {
+  .aboutus .container .aboutus_content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+.aboutus .container .aboutus_content div h1 {
+  line-height: 1;
+  color: #44374d;
+}
+
+@media screen and (min-width: 600px) {
+  .aboutus .container .aboutus_content div h1 {
+    font-size: 3rem;
+  }
+}
+
+.aboutus .container .aboutus_content div p {
+  margin: 1.5rem 0;
+  color: gray;
+}
+
+.aboutus .container .aboutus_content div button {
+  padding: 1.2rem 2rem;
+  margin-top: 2rem;
+  background-color: #ff053b;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.aboutus .container .aboutus_content div button:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0px 5px 5px #ff053b67;
+          box-shadow: 0px 5px 5px #ff053b67;
+}
+
+.aboutus .container .aboutus_content div button a {
+  color: white;
+}
+
+.aboutus .container .aboutus_content img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .aboutus .container .aboutus_content img {
+    margin: 0;
+  }
+}
+
+.aboutus .container .services_container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 5rem 0 5rem 0;
+}
+
+@media screen and (min-width: 990px) {
+  .aboutus .container .services_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.aboutus .container .services_container div {
+  color: #44374d;
+  line-height: 1.2;
+  padding: 2rem 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+@media screen and (min-width: 990px) {
+  .aboutus .container .services_container div {
+    padding: 2rem 1rem;
+  }
+}
+
+.aboutus .container .services_container div img {
+  margin-bottom: 1rem;
+}
+
+.aboutus .container .services_container div p {
+  font-weight: normal;
+  margin: 0.5rem 2rem;
+  font-size: 1rem;
+}
+
+.aboutus .container .email_container {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 2rem;
+  padding: 4rem 2rem;
+  border-radius: 24px;
+  position: relative;
+  margin-bottom: 4rem;
+  background: rgba(0, 0, 0, 0.281);
+}
+
+@media screen and (min-width: 700px) {
+  .aboutus .container .email_container {
+    padding: 4rem 9rem;
+  }
+}
+
+.aboutus .container .email_container:hover::before {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.aboutus .container .email_container:hover::after {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.aboutus .container .email_container::before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 200px;
+  height: 200px;
+  background-image: url("../../images/reviews_white_back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.aboutus .container .email_container::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: -1rem;
+  width: 200px;
+  height: 200px;
+  background-image: url("../../images/reviews_white_back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.aboutus .container .email_container .video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -100;
+}
+
+.aboutus .container .email_container .email h1 {
+  font-size: 1.8rem;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 500px) {
+  .aboutus .container .email_container .email h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.aboutus .container .email_container .email input {
+  width: 100%;
+  padding: 1rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 80px;
+  background-color: #f2f5f5;
+  margin: 1rem 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (min-width: 800px) {
+  .aboutus .container .email_container .email input {
+    width: 500px;
+  }
+}
+
+.aboutus .container .email_container .email button {
+  padding: 1rem 2rem;
+  margin-top: rem;
+  background-color: #ff053b;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  z-index: 2;
+}
+
+.aboutus .container .email_container .email button:hover {
+  background: white;
+  color: #ff053b;
+}
+/*# sourceMappingURL=styles.css.map */

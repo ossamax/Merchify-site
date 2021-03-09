@@ -1,0 +1,12 @@
+<svg id="star-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Rounded" transform="translate(0)">
+    <g id="Toggle">
+      <g id="_-Round-_-Toggle-_-star" data-name="-Round-/-Toggle-/-star">
+        <g id="Group_150" data-name="Group 150">
+          <path id="Path" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="_-Icon-Color" data-name="🔹-Icon-Color" d="M12.578,18.345l4.43,2.707A1.067,1.067,0,0,0,18.6,19.887L17.425,14.8l3.918-3.429a1.079,1.079,0,0,0-.608-1.887l-5.156-.442L13.56,4.228a1.064,1.064,0,0,0-1.964,0l-2.018,4.8-5.156.442a1.079,1.079,0,0,0-.608,1.887l3.918,3.429-1.174,5.09a1.068,1.068,0,0,0,1.591,1.165Z" transform="translate(-0.578 -0.6)" fill="#ffa869" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
